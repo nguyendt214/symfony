@@ -170,5 +170,11 @@ Enjoy!
 [13]: http://symfony.com/doc/2.5/bundles/SensioGeneratorBundle/index.html
 nguyendt insert more info
 
+==== RESOLVED CONFIG ========
 -----
 Create new branch DEV for GIT
+
+
+--------------
+Back to master branch and Edit this file for test
+
