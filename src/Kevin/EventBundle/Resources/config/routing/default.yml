@@ -1,0 +1,4 @@
+# move the existing route into a new file
+event_homepage:
+    path:     /hello/{name}/{count}
+    defaults: { _controller: EventBundle:Default:index }

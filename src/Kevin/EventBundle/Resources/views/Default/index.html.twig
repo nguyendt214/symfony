@@ -1,8 +1,16 @@
 {% extends '::base.html.twig' %}
-{% block title 'Kevin First Page' %}
+
+{% block title 'Some Twiggy Goodness' %}
+
 {% block body %}
-{% for i in 1..count %}
-    <p>Hello {{ name }}! {{ i }}</p>
-{% endfor %}
-    {{ event.name }}
+    {#
+        This page is awesomeeeeeeeee!!!!!!!!!!!
+    #}
+
+    {{ event.name }}<br/>
+    {{ event.location }}<br/>
+
+    {% for i in 1..count %}
+        Hello <strong>{{ name|upper }}</strong> # {{ i }}!<br/>
+    {% endfor %}
 {% endblock %}
