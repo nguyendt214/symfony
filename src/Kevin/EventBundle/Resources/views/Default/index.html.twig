@@ -1,0 +1,8 @@
+{% extends '::base.html.twig' %}
+{% block title 'Kevin First Page' %}
+{% block body %}
+{% for i in 1..count %}
+    <p>Hello {{ name }}! {{ i }}</p>
+{% endfor %}
+    {{ event.name }}
+{% endblock %}
